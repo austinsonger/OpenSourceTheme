@@ -85,3 +85,7 @@ visibility: hidden;
 h2, a, a.tagline, a.author, a.flairselectbtn {
 color: #000
 }
+
+.tabmenu li a {
+	background-color: #5cb338;
+}
