@@ -63,8 +63,9 @@ color:#CEF8D5;
 color:#40a850;
 }
 
-.sidecontentbox > .content, div.morelink, .roundfield {
+.sidecontentbox > .content, div.morelink, .roundfield, .linkinfo {
 background-color: #CEF8D5;
+border: 1px solid #000
 }
 
 .link .usertext .md {
