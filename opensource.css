@@ -63,8 +63,12 @@ color:#CEF8D5;
 color:#40a850;
 }
 
-.sidecontentbox > .content, div.morelink {
+.sidecontentbox > .content, div.morelink, .roundfield {
 background-color: #CEF8D5;
+}
+.roundfield {
+background-color: #CEF8D5 !important;
+border: None !important;
 }
 a.choice {
 background: None;
@@ -74,7 +78,7 @@ background-image: None;
 border: 1px solid #000;
 }
 
-div.morelink > a {
+div.morelink > a, span.redditname {
 color: #46882B;
 }
 
@@ -86,6 +90,10 @@ h2, a, a.tagline, a.author, a.flairselectbtn {
 color: #000
 }
 
-.tabmenu li a {
+.tabmenu li a, .tabmenu.formtab .selected a{
 	background-color: #5cb338;
+}
+
+.formtabs-content {
+border-top: 4px solid #5cb338;
 }
