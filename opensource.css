@@ -1,0 +1,87 @@
+#header {
+border-bottom:1px solid #000;
+position:relative;
+background-color:#CEF8D5;
+z-index:99;
+}
+
+#header-bottom-right {
+position:absolute;
+right:0;
+bottom:0;
+background-color:silver;
+color:#000;
+-moz-border-radius-topleft:7px;
+-webkit-border-top-left-radius:7px;
+padding:4px;
+}
+
+#sr-more-link {
+color:#000;
+background-color:#C7C7C7;
+position:absolute;
+right:0;
+top:3px;
+font-weight:700;
+margin:0;
+padding:0 5px 0 15px;
+}
+
+#sr-header-area {
+background-color:silver;
+white-space:nowrap;
+overflow:hidden;
+text-transform:none!important;
+border-bottom:1px solid #BBB!important;
+font-size:90%;
+padding:3px 0 3px 5px;
+}
+
+.comment a.author.admin {
+color:red;
+}
+
+.thing .title {
+color:#000;
+overflow:hidden;
+padding:0;
+}
+
+#header-bottom-right a,#sr-bar a,.comment .author,.thing .title.loggedin,.thing .title.loggedin.click {
+color:#000;
+}
+
+#header-bottom-right b,#sr-bar .separator {
+color:#FFF;
+}
+
+#sr-header-area .selected a,.thing .title.click {
+color:#CEF8D5;
+}
+
+.thing .title:visited,.thing .title:hover,.thing .title.loggedin:visited,.thing .title.loggedin:hover {
+color:#40a850;
+}
+
+.sidecontentbox > .content, div.morelink {
+background-color: #CEF8D5;
+}
+a.choice {
+background: None;
+}
+div.morelink {
+background-image: None;
+border: 1px solid #000;
+}
+
+div.morelink > a {
+color: #46882B;
+}
+
+.morelink > .nub {
+visibility: hidden;
+}
+
+h2, a, a.tagline, a.author, a.flairselectbtn {
+color: #000
+}
